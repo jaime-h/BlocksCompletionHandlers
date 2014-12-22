@@ -19,6 +19,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
+    
+    NewSimpleCounter *newSimpleCounter = [NewSimpleCounter new];
+    [newSimpleCounter countToTenThousandAndReturnCompletionBlock:^(BOOL completed) {
+        if (completed) {
+            NSLog(@"Ten Thousand Counts Finished");
+        }
+    }];
+    
+    /*
+    
     [self performMathOperation:^(NSInteger x, NSInteger y) {
         NSLog(@"This is the value for x: %li", (long)x);
         NSLog(@"This is the value for y: %li", (long)y);
@@ -26,7 +36,7 @@
     
     [self startCountingToThenThousand];
     
-    /*
+
     NSInteger z = 20;
     
     NSInteger (^mathOpertaion)(NSInteger x, NSInteger y) = ^NSInteger(NSInteger x, NSInteger y)

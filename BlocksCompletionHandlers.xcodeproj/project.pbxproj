@@ -15,6 +15,7 @@
 		6FE3E6551A489E55003E386A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FE3E6531A489E55003E386A /* LaunchScreen.xib */; };
 		6FE3E6611A489E55003E386A /* BlocksCompletionHandlersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE3E6601A489E55003E386A /* BlocksCompletionHandlersTests.m */; };
 		6FE3E66C1A48A2D8003E386A /* OldSimpleCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE3E66B1A48A2D8003E386A /* OldSimpleCounter.m */; };
+		6FE3E66F1A48A59B003E386A /* NewSimpleCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE3E66E1A48A59B003E386A /* NewSimpleCounter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		6FE3E6601A489E55003E386A /* BlocksCompletionHandlersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlocksCompletionHandlersTests.m; sourceTree = "<group>"; };
 		6FE3E66A1A48A2D8003E386A /* OldSimpleCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OldSimpleCounter.h; sourceTree = "<group>"; };
 		6FE3E66B1A48A2D8003E386A /* OldSimpleCounter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OldSimpleCounter.m; sourceTree = "<group>"; };
+		6FE3E66D1A48A59B003E386A /* NewSimpleCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewSimpleCounter.h; sourceTree = "<group>"; };
+		6FE3E66E1A48A59B003E386A /* NewSimpleCounter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewSimpleCounter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 				6FE3E6491A489E55003E386A /* AppDelegate.m */,
 				6FE3E64B1A489E55003E386A /* ViewController.h */,
 				6FE3E64C1A489E55003E386A /* ViewController.m */,
+				6FE3E66D1A48A59B003E386A /* NewSimpleCounter.h */,
+				6FE3E66E1A48A59B003E386A /* NewSimpleCounter.m */,
 				6FE3E66A1A48A2D8003E386A /* OldSimpleCounter.h */,
 				6FE3E66B1A48A2D8003E386A /* OldSimpleCounter.m */,
 				6FE3E64E1A489E55003E386A /* Main.storyboard */,
@@ -224,6 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FE3E66F1A48A59B003E386A /* NewSimpleCounter.m in Sources */,
 				6FE3E64D1A489E55003E386A /* ViewController.m in Sources */,
 				6FE3E64A1A489E55003E386A /* AppDelegate.m in Sources */,
 				6FE3E66C1A48A2D8003E386A /* OldSimpleCounter.m in Sources */,

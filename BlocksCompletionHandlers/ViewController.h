@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 #import "OldSimpleCounter.h"
+#import "NewSimpleCounter.h"
 
 @interface ViewController : UIViewController
 
