@@ -16,7 +16,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    NSInteger (^mathOpertaion)(NSInteger x, NSInteger y) = ^NSInteger(NSInteger x, NSInteger y)
+    {
+        return x + y;
+    };
+
+    NSInteger sum = mathOpertaion(1,2);
+    NSLog(@"Sum of 1 and 2 is %li", (long) sum);
 }
 
 - (void)didReceiveMemoryWarning {
