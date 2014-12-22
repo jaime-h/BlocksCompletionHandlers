@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+#import "OldSimpleCounter.h"
+
 @interface ViewController : UIViewController
 
+-(void)performMathOperation:(void (^)(NSInteger, NSInteger))mathOperationBlock;
 
 @end
 

@@ -14,6 +14,7 @@
 		6FE3E6521A489E55003E386A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FE3E6511A489E55003E386A /* Images.xcassets */; };
 		6FE3E6551A489E55003E386A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FE3E6531A489E55003E386A /* LaunchScreen.xib */; };
 		6FE3E6611A489E55003E386A /* BlocksCompletionHandlersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE3E6601A489E55003E386A /* BlocksCompletionHandlersTests.m */; };
+		6FE3E66C1A48A2D8003E386A /* OldSimpleCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE3E66B1A48A2D8003E386A /* OldSimpleCounter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		6FE3E65A1A489E55003E386A /* BlocksCompletionHandlersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlocksCompletionHandlersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FE3E65F1A489E55003E386A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6FE3E6601A489E55003E386A /* BlocksCompletionHandlersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlocksCompletionHandlersTests.m; sourceTree = "<group>"; };
+		6FE3E66A1A48A2D8003E386A /* OldSimpleCounter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OldSimpleCounter.h; sourceTree = "<group>"; };
+		6FE3E66B1A48A2D8003E386A /* OldSimpleCounter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OldSimpleCounter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				6FE3E6491A489E55003E386A /* AppDelegate.m */,
 				6FE3E64B1A489E55003E386A /* ViewController.h */,
 				6FE3E64C1A489E55003E386A /* ViewController.m */,
+				6FE3E66A1A48A2D8003E386A /* OldSimpleCounter.h */,
+				6FE3E66B1A48A2D8003E386A /* OldSimpleCounter.m */,
 				6FE3E64E1A489E55003E386A /* Main.storyboard */,
 				6FE3E6511A489E55003E386A /* Images.xcassets */,
 				6FE3E6531A489E55003E386A /* LaunchScreen.xib */,
@@ -221,6 +226,7 @@
 			files = (
 				6FE3E64D1A489E55003E386A /* ViewController.m in Sources */,
 				6FE3E64A1A489E55003E386A /* AppDelegate.m in Sources */,
+				6FE3E66C1A48A2D8003E386A /* OldSimpleCounter.m in Sources */,
 				6FE3E6471A489E55003E386A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
